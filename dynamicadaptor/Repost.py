@@ -1,8 +1,10 @@
+from typing import Optional
+
 from pydantic import BaseModel
 
 from .AddonCard import Additional
 from .Content import Text
-from .Header import Head, Optional
+from .Header import Head
 from .Majors import Major
 
 

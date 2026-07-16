@@ -1,4 +1,4 @@
-from typing import List, Optional, Union
+from typing import Any, List, Optional, Union
 from pydantic import BaseModel, Json
 
 
@@ -7,6 +7,9 @@ class DrawItem(BaseModel):
     width: int
     src: Optional[str] = None
     url: Optional[str] = None
+    aigc: Optional[Any] = None
+    live_url: Optional[str] = None
+    size: Optional[float] = None
 
 
 class Draw(BaseModel):
@@ -147,6 +150,8 @@ class OPUS(BaseModel):
     pics: Optional[List[DrawItem]] = None
     summary: Optional[Summary] = None
     title: Optional[str] = None
+    fold_action: Optional[List[str]] = None
+    jump_url: Optional[str] = None
 
 # class MajorDetail(Enum):
 #     """

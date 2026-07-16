@@ -1,0 +1,285 @@
+{
+  "basic": {
+    "comment_id_str": "401867741",
+    "comment_type": 11,
+    "jump_url": "//www.bilibili.com/opus/1225493328666034183",
+    "like_icon": {
+      "action_url": "",
+      "end_url": "",
+      "id": 0,
+      "start_url": ""
+    },
+    "rid_str": "401867741"
+  },
+  "id_str": "1225493328666034183",
+  "modules": {
+    "module_author": {
+      "avatar": {
+        "container_size": {
+          "height": 1.35,
+          "width": 1.35
+        },
+        "fallback_layers": {
+          "is_critical_group": true,
+          "layers": [
+            {
+              "general_spec": {
+                "pos_spec": {
+                  "axis_x": 0.675,
+                  "axis_y": 0.675,
+                  "coordinate_pos": 2
+                },
+                "render_spec": {
+                  "opacity": 1
+                },
+                "size_spec": {
+                  "height": 1,
+                  "width": 1
+                }
+              },
+              "layer_config": {
+                "is_critical": true,
+                "tags": {
+                  "AVATAR_LAYER": {},
+                  "GENERAL_CFG": {
+                    "config_type": 1,
+                    "general_config": {
+                      "web_css_style": {
+                        "borderRadius": "50%"
+                      }
+                    }
+                  }
+                }
+              },
+              "resource": {
+                "res_image": {
+                  "image_src": {
+                    "placeholder": 6,
+                    "remote": {
+                      "bfs_style": "widget-layer-avatar",
+                      "url": "https://i2.hdslb.com/bfs/face/dd7670d66611749413586729ea992e87cf081e01.jpg"
+                    },
+                    "src_type": 1
+                  }
+                },
+                "res_type": 3
+              },
+              "visible": true
+            },
+            {
+              "general_spec": {
+                "pos_spec": {
+                  "axis_x": 0.8000000000000002,
+                  "axis_y": 0.8000000000000002,
+                  "coordinate_pos": 1
+                },
+                "render_spec": {
+                  "opacity": 1
+                },
+                "size_spec": {
+                  "height": 0.41666666666666663,
+                  "width": 0.41666666666666663
+                }
+              },
+              "layer_config": {
+                "tags": {
+                  "GENERAL_CFG": {
+                    "config_type": 1,
+                    "general_config": {
+                      "web_css_style": {
+                        "background-color": "rgb(255,255,255)",
+                        "border": "2px solid rgba(255,255,255,1)",
+                        "borderRadius": "50%",
+                        "boxSizing": "border-box"
+                      }
+                    }
+                  },
+                  "ICON_LAYER": {}
+                }
+              },
+              "resource": {
+                "res_image": {
+                  "image_src": {
+                    "local": 4,
+                    "src_type": 2
+                  }
+                },
+                "res_type": 3
+              },
+              "visible": true
+            }
+          ]
+        },
+        "mid": "1871737115"
+      },
+      "decoration_card": {
+        "big_card_url": "https://i0.hdslb.com/bfs/garb/open/928cb1e50faa9e942bba5669c441147e5061941e.png",
+        "card_type": 2,
+        "card_type_name": "免费",
+        "card_url": "https://i0.hdslb.com/bfs/garb/open/928cb1e50faa9e942bba5669c441147e5061941e.png",
+        "fan": {
+          "color": "#E5B261",
+          "color_format": {
+            "colors": [
+              "#E29D2FFF",
+              "#FDC773FF",
+              "#FDC773FF",
+              "#E19B2EFF"
+            ],
+            "end_point": "100,100",
+            "gradients": [
+              0,
+              33,
+              67,
+              100
+            ],
+            "start_point": "0,0"
+          },
+          "is_fan": 1,
+          "name": "XXXX",
+          "num_desc": "000022",
+          "number": 22
+        },
+        "id": 70070,
+        "image_enhance": "https://i0.hdslb.com/bfs/garb/open/928cb1e50faa9e942bba5669c441147e5061941e.png",
+        "item_id": 70070,
+        "jump_url": "https://www.bilibili.com/h5/mall/digital-card/home?act_id=103166&lottery_id=0&hybrid_set_header=2&anchor_task=1&navhide=1&f_source=garb&from=post&window_params=%7B%22type%22%3A2%2C%22mid%22%3A1871737115%7D",
+        "name": "纸嫁衣"
+      },
+      "face": "https://i2.hdslb.com/bfs/face/dd7670d66611749413586729ea992e87cf081e01.jpg",
+      "face_nft": false,
+      "following": null,
+      "jump_url": "//space.bilibili.com/1871737115/dynamic",
+      "label": "",
+      "mid": 1871737115,
+      "name": "纸嫁衣官方",
+      "official_verify": {
+        "desc": "",
+        "type": 1
+      },
+      "pendant": {
+        "expire": 0,
+        "image": "",
+        "image_enhance": "",
+        "image_enhance_frame": "",
+        "n_pid": 0,
+        "name": "",
+        "pid": 0
+      },
+      "pub_action": "",
+      "pub_location_text": "",
+      "pub_time": "2026年07月16日 11:00",
+      "pub_ts": 1784170800,
+      "type": "AUTHOR_TYPE_NORMAL",
+      "vip": {
+        "avatar_subscript": 1,
+        "avatar_subscript_url": "",
+        "due_date": 1788019200000,
+        "label": {
+          "bg_color": "#FB7299",
+          "bg_style": 1,
+          "border_color": "",
+          "img_label_uri_hans": "",
+          "img_label_uri_hans_static": "https://i0.hdslb.com/bfs/vip/8d4f8bfc713826a5412a0a27eaaac4d6b9ede1d9.png",
+          "img_label_uri_hant": "",
+          "img_label_uri_hant_static": "https://i0.hdslb.com/bfs/activity-plat/static/20220614/e369244d0b14644f5e1a06431e22a4d5/VEW8fCC0hg.png",
+          "label_theme": "annual_vip",
+          "path": "http://i0.hdslb.com/bfs/vip/label_annual.png",
+          "text": "年度大会员",
+          "text_color": "#FFFFFF",
+          "use_img_label": true
+        },
+        "nickname_color": "#FB7299",
+        "status": 1,
+        "theme_type": 0,
+        "type": 2
+      }
+    },
+    "module_dynamic": {
+      "additional": {
+        "common": {
+          "button": {
+            "jump_style": {
+              "icon_url": "",
+              "text": "预约"
+            },
+            "jump_url": "https://www.biligame.com/detail?id=119327&sourceFrom=1005&biz_scene=dynamic",
+            "type": 1
+          },
+          "cover": "https://i0.hdslb.com/bfs/game/f74e9c0137794cc8f85933742b70e474a779629f.jpg",
+          "desc1": "休闲/推理/解谜",
+          "desc2": "前往测试服下载",
+          "head_text": "相关游戏",
+          "id_str": "119327",
+          "jump_url": "https://www.biligame.com/detail?id=119327&sourceFrom=1005&biz_scene=dynamic",
+          "style": 1,
+          "sub_type": "game",
+          "title": "纸嫁衣9罗浮梦"
+        },
+        "type": "ADDITIONAL_TYPE_COMMON"
+      },
+      "desc": null,
+      "major": {
+        "opus": {
+          "fold_action": [
+            "展开",
+            "收起"
+          ],
+          "jump_url": "//www.bilibili.com/opus/1225493328666034183",
+          "pics": [
+            {
+              "aigc": null,
+              "height": 1200,
+              "live_url": null,
+              "size": 323.400390625,
+              "url": "http://i0.hdslb.com/bfs/new_dyn/eac3ad7872f9b300b00bd64ab9c799471871737115.jpg",
+              "width": 900
+            }
+          ],
+          "summary": {
+            "rich_text_nodes": [
+              {
+                "orig_text": "《纸嫁衣9罗浮梦》现已上线！晒游戏截图领周边！ \n\n再游益昌，汽笛轰鸣，轨道交错，等待有缘人启程：\n场景因人而异，谜题？故物？还是重重魅影....\n\n囍字红烛，纸人恭迎。准备好了吗？益昌镇欢欢欢迎您您您！\n\n前往B站话题：纸嫁衣集市，发布你对纸嫁衣9罗浮梦的游玩感受，以及游戏截图，即视为成功参与活动！阿纸会抽取9位纸迷获得【纸嫁衣9罗浮梦限定徽章】一份~\n\n【游戏下载】\niOS下载  >>> 前往App Store搜索「纸嫁衣9罗浮梦」进行下载\n安卓下载>>> 前往哔哩哔哩游戏中心搜索「纸嫁衣9罗浮梦」进行下载\n\n【活动时间】\n7月16日—8月16日\n\n【活动奖励】\n纸嫁衣9罗浮梦 限定徽章*1\n\n【活动说明】\n1.禁止发布一切违反法律法规或社区规则的内容，非原创、涉及抄袭的发帖内容无法参与本次活动，内容不得涉及任何敏感问题；\n2.前往B站话题：纸嫁衣集市 并发布对应内容，以及纸嫁衣9罗浮梦游戏内截图，才视为有效参与哦；\n3.重复参与活动的纸迷朋友们，奖励只发放单个平台，不可叠加；\n4.将在开奖日期后90个工作日内发放奖励，因快递邮寄问题，港澳台和国外的纸迷无法获得此次实物奖励，敬请理解；\n5.本次活动解释权归《纸嫁衣》运营团队所有。",
+                "text": "《纸嫁衣9罗浮梦》现已上线！晒游戏截图领周边！ \n\n再游益昌，汽笛轰鸣，轨道交错，等待有缘人启程：\n场景因人而异，谜题？故物？还是重重魅影....\n\n囍字红烛，纸人恭迎。准备好了吗？益昌镇欢欢欢迎您您您！\n\n前往B站话题：纸嫁衣集市，发布你对纸嫁衣9罗浮梦的游玩感受，以及游戏截图，即视为成功参与活动！阿纸会抽取9位纸迷获得【纸嫁衣9罗浮梦限定徽章】一份~\n\n【游戏下载】\niOS下载  >>> 前往App Store搜索「纸嫁衣9罗浮梦」进行下载\n安卓下载>>> 前往哔哩哔哩游戏中心搜索「纸嫁衣9罗浮梦」进行下载\n\n【活动时间】\n7月16日—8月16日\n\n【活动奖励】\n纸嫁衣9罗浮梦 限定徽章*1\n\n【活动说明】\n1.禁止发布一切违反法律法规或社区规则的内容，非原创、涉及抄袭的发帖内容无法参与本次活动，内容不得涉及任何敏感问题；\n2.前往B站话题：纸嫁衣集市 并发布对应内容，以及纸嫁衣9罗浮梦游戏内截图，才视为有效参与哦；\n3.重复参与活动的纸迷朋友们，奖励只发放单个平台，不可叠加；\n4.将在开奖日期后90个工作日内发放奖励，因快递邮寄问题，港澳台和国外的纸迷无法获得此次实物奖励，敬请理解；\n5.本次活动解释权归《纸嫁衣》运营团队所有。",
+                "type": "RICH_TEXT_NODE_TYPE_TEXT"
+              }
+            ],
+            "text": "《纸嫁衣9罗浮梦》现已上线！晒游戏截图领周边！ \n\n再游益昌，汽笛轰鸣，轨道交错，等待有缘人启程：\n场景因人而异，谜题？故物？还是重重魅影....\n\n囍字红烛，纸人恭迎。准备好了吗？益昌镇欢欢欢迎您您您！\n\n前往B站话题：纸嫁衣集市，发布你对纸嫁衣9罗浮梦的游玩感受，以及游戏截图，即视为成功参与活动！阿纸会抽取9位纸迷获得【纸嫁衣9罗浮梦限定徽章】一份~\n\n【游戏下载】\niOS下载  >>> 前往App Store搜索「纸嫁衣9罗浮梦」进行下载\n安卓下载>>> 前往哔哩哔哩游戏中心搜索「纸嫁衣9罗浮梦」进行下载\n\n【活动时间】\n7月16日—8月16日\n\n【活动奖励】\n纸嫁衣9罗浮梦 限定徽章*1\n\n【活动说明】\n1.禁止发布一切违反法律法规或社区规则的内容，非原创、涉及抄袭的发帖内容无法参与本次活动，内容不得涉及任何敏感问题；\n2.前往B站话题：纸嫁衣集市 并发布对应内容，以及纸嫁衣9罗浮梦游戏内截图，才视为有效参与哦；\n3.重复参与活动的纸迷朋友们，奖励只发放单个平台，不可叠加；\n4.将在开奖日期后90个工作日内发放奖励，因快递邮寄问题，港澳台和国外的纸迷无法获得此次实物奖励，敬请理解；\n5.本次活动解释权归《纸嫁衣》运营团队所有。"
+          },
+          "title": null
+        },
+        "type": "MAJOR_TYPE_OPUS"
+      },
+      "topic": {
+        "id": 59653,
+        "jump_url": "https://m.bilibili.com/topic-detail?topic_id=59653&topic_name=%E7%BA%B8%E5%AB%81%E8%A1%A3%E9%9B%86%E5%B8%82",
+        "name": "纸嫁衣集市"
+      }
+    },
+    "module_more": {
+      "three_point_items": [
+        {
+          "label": "举报",
+          "type": "THREE_POINT_REPORT"
+        }
+      ]
+    },
+    "module_stat": {
+      "comment": {
+        "count": 344,
+        "forbidden": false
+      },
+      "forward": {
+        "count": 5,
+        "forbidden": false
+      },
+      "like": {
+        "count": 815,
+        "forbidden": false,
+        "status": false
+      }
+    }
+  },
+  "type": "DYNAMIC_TYPE_DRAW",
+  "visible": true
+}
