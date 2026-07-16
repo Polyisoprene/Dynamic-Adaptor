@@ -20,39 +20,28 @@ pip install dynamicadaptor
 
 ```python
 
-from google.protobuf.json_format import MessageToDict
-from dynamicadaptor.DynamicConversion import formate_message
-from bilirpc.api import get_dy_detail
-import asyncio
 import httpx
+from dynamicadaptor import format_message, formate_message
 
 
-# 如果数据是grpc返回的数据，则需要转换成json数据
-async def sample1():
-    dynamic_grpc = await get_dy_detail("746530608345251842")
-    dynamic: dict = MessageToDict(dynamic_grpc[0])
-    dynamic_formate =await formate_message("grpc", dynamic)
-    print(dynamic_formate)
-
-
-asyncio.run(sample1())
-
-
-# 如果是web返回的数据
-async def sample2():
+# web 返回的数据（同步调用）
+def sample():
     url = "https://api.bilibili.com/x/polymer/web-dynamic/v1/detail?timezone_offset=-480&id=746530608345251842"
     headers = {
         "Referer": "https://t.bilibili.com/746530608345251842"
     }
     result = httpx.get(url, headers=headers).json()
-    dynamic_formate =await formate_message("web", result["data"]["item"])
+    dynamic_formate = format_message(result["data"]["item"])
     print(dynamic_formate)
 
 
-asyncio.run(sample2())
+sample()
 
 
-
+# 若你的代码处于异步上下文中，可继续使用向后兼容的异步入口 formate_message：
+# async def sample_async():
+#     result = httpx.AsyncClient().get(url, headers=headers)
+#     dynamic_formate = await formate_message(result["data"]["item"])
 
 ```
 

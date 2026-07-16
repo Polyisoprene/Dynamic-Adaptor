@@ -1,26 +1,27 @@
-[tool.poetry]
+[project]
 name = "DynamicAdaptor"
-version = "0.5.5"
-description = ""
-authors = ["DMC <lzxder@outlook.com>"]
+version = "0.6.1"
+description = "将B站动态数据转换为渲染所需的统一数据类型"
+authors = [
+    {name = "DMC", email = "lzxder@outlook.com"},
+]
+dependencies = [
+    "pydantic>=2.0.0,<3.0.0",
+    "loguru>=0.6.0,<1.0.0",
+]
+requires-python = "<4.0.0,>=3.8.0"
 readme = "README.md"
-
-[tool.poetry.dependencies]
-python = "^3.8.0"
-pydantic = "^2.0.0"
-loguru = "^0.6.0"
-
-
-[[tool.poetry.source]]
-name = "ts"
-url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
-priority = "primary"
+license = {text = "MIT"}
 
 [build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
 
 [dependency-groups]
 dev = [
-    "httpx (>=0.28.1,<0.29.0)"
+    "pytest>=8.0,<9.0"
 ]
+

@@ -1,7 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# PDM
+.pdm-python
+.pdm-build/
+.pdm.toml
+
+# Environments
 .env
-.idea
-.git
+.env.*
+.venv
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Misc
 .github
-dist
 sample.py
-dynamicadaptor/__pycache__
